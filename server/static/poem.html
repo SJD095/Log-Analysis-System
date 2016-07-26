@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+div#container{width:1400px}
+div#header {}
+div#search {height:300px;width:300px;float:left;}
+div#week {height:300px;width:350px;float:left;}
+div#month {height:300px;width:350px;float:left;}
+div#log {height:800px;width:400px;float:left;}
+h1 {margin-bottom:0;}
+h2 {margin-bottom:0;font-size:18px;}
+ul {margin:0;}
+li {list-style:none;}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header" align="center">
+<h1>Alpha</h1>
+</div>
+
+<div id="search">
+<h1 align="left">Search</h1>
+    <form method="post" action="/check">
+    <p>From date<br><input type="text" name="from"></p>
+    <p>To date<br><input type="text" name="to"></p>
+    <input type="submit">
+    </form>
+    <p>Warnings count: {{warning}}<br>
+    Errors count: {{error}}<br>
+	Fatals count: {{fatal}}<br>
+	</p>
+	<a href="{{static_url("fatal_log.zip")}}" target="_blank">fatal log download</a>
+</div>
+
+<div id="week">
+	<h1 align="center">Result</h1>
+	</br>
+	</br>
+	<img src="{{static_url("search_diagram.png")}}" width="320" height="180" />
+</div>
+
+<div id="month">
+	<h1 align="center">Week</h1>
+	</br>
+	</br>
+    <img src="{{static_url("week_diagram.png")}}" width="320" height="180" />
+	<h1 align="center">Month</h1>
+	</br>
+	</br>
+	<img src="{{static_url("month_diagram.png")}}" width="320" height="180" />
+</div>
+
+<div id="log">
+	<h1>Log</h1>
+	<p>{{log}}</p>
+</div>
+</div>
+
+</body>
+</html>
