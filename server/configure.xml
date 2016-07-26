@@ -1,0 +1,32 @@
+<configure self="2016.1.2">
+<default>
+    <nickname>default_name</nickname>
+    <mail>szy@sunzhongyang.com</mail>
+    <logpath>/home/szy/</logpath>
+    <logname>ss</logname>
+</default>
+<client id="iZ28tdw0507Z">
+    <nickname>d</nickname>
+    <mail>szy@sunzhongyang.com</mail>
+    <logpath>/home/szy/</logpath>
+    <logname>ss</logname>
+</client>
+<client id="iZ28tdw0507A">
+    <nickname>ff</nickname>
+    <mail>szy@sunzhongyang.com</mail>
+    <logpath>/home/szy/</logpath>
+    <logname>ss</logname>
+</client>
+<client id="102">
+	<nickname>default_name</nickname>
+	<mail>szy@sunzhongyang.com</mail>
+	<logpath>/home/szy/</logpath>
+	<logname>ss</logname>
+</client>
+<client id="122">
+	<nickname>default_name</nickname>
+	<mail>szy@sunzhongyang.com</mail>
+	<logpath>/home/szy/</logpath>
+	<logname>ss</logname>
+</client>
+</configure>
