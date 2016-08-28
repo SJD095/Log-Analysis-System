@@ -1,0 +1,14 @@
+2016-06-27 23:53:12,892 NOTICE [server.cpp:76] [void* thread_loop(void*)] starting the server...
+	ip = 
+	port = 12341
+	thread num = 5 
+2016-06-27 23:53:42,287 NOTICE [TaskMgrCloneFactory.cpp:29] [virtual Centaurus::TaskMgrIf* TaskMgrCloneFactory::getHandler(const apache::thrift::TConnectionInfo&)] Incoming connection
+	SocketInfo: <Host: ::ffff:10.80.5.22 Port: 55806>
+	PeerHost: €$
+	PeerAddress: ::ffff:10.80.5.22
+	PeerPort: 55806 
+2016-06-27 23:54:08,459 NOTICE [TaskMgrCloneFactory.cpp:29] [virtual Centaurus::TaskMgrIf* TaskMgrCloneFactory::getHandler(const apache::thrift::TConnectionInfo&)] Incoming connection
+	SocketInfo: <Host: ::ffff:10.80.5.22 Port: 55807>
+	PeerHost: ::ffff:10.80.5.22
+	PeerAddress: ::ffff:10.80.5.22
+	PeerPort: 55807 

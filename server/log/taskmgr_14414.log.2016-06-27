@@ -1,0 +1,5 @@
+2016-06-27 23:54:08,459 NOTICE [taskprocessor/SimpleTaskProcessor.cpp:18] [virtual int32_t CSimpleTaskProcessor::process(const WebTaskParam&)] CSimpleTaskProcessor::process 
+2016-06-27 23:54:08,459 NOTICE [TaskMgrCmd.cpp:28] [ResultCode CTaskMgrCmd::get_simple_cmd_by_json(rapidjson::Document&, uint32_t, const string&, const Value&, ReplaceMap&)] TaskMgrCmd::get_simple_cmd_by_json 
+2016-06-27 23:54:08,459 NOTICE [taskprocessor/SimpleTaskProcessor.cpp:38] [virtual int32_t CSimpleTaskProcessor::process(const WebTaskParam&)] CSimpleTaskProcessor::process, to send cmd {"type":3,"message_id":2,"cmd":50331697,"from_id":"test111","to_id":"ZMD31LF62001133"} 
+2016-06-27 23:54:08,460 NOTICE [..//sdk/DevConnSdk.cpp:16] [DevConn::CDevConnHandle::CDevConnHandle(const string&, int)] connect to rpc server success {host : 10.80.5.24, port : 9109} 
+2016-06-27 23:54:18,467 NOTICE [delegate/DevconnDelegate.cpp:55] [int32_t CDevconnDelegate::broadcast(const string&)] broadcast to devconn success : {{"type":3,"message_id":2,"cmd":50331697,"from_id":"test111","to_id":"ZMD31LF62001133"}} 

@@ -1,0 +1,11 @@
+2016-06-27 23:53:11,899 NOTICE [ZkClient.cpp:247] [int32_t Zk::CZkClient::getServers(const string&)] get servers {nodename:/appconn}... 
+2016-06-27 23:53:11,900 FATAL [ZkClient.cpp:256] [int32_t Zk::CZkClient::getServers(const string&)] zoo_get_children failure {nodename:/appconn , error code: -101} 
+2016-06-27 23:53:11,900 NOTICE [ZkClient.cpp:247] [int32_t Zk::CZkClient::getServers(const string&)] get servers {nodename:/devconn}... 
+2016-06-27 23:53:11,901 NOTICE [ZkClient.cpp:323] [int32_t Zk::CZkClient::getServers(const string&)] find server
+	{nodename:/devconn}
+	{sub nodename : /devconn/10.80.5.24:9109}
+	{host : 10.80.5.24, port : 9109} 
+2016-06-27 23:53:11,901 NOTICE [ZkClient.cpp:367] [int32_t Zk::CZkClient::getServers(const string&)] get all servers' info successfully
+	{nodename:/devconn, server num:1} 
+2016-06-27 23:53:11,901 NOTICE [ZkClient.cpp:374] [int32_t Zk::CZkClient::getServers(const string&, IZkClientHandle*)] handler get servers {nodename:/sms}... 
+2016-06-27 23:53:11,902 FATAL [ZkClient.cpp:387] [int32_t Zk::CZkClient::getServers(const string&, IZkClientHandle*)] zoo_get_children failure {nodename:/sms , error code: -101} 

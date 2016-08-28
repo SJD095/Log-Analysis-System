@@ -1,0 +1,92 @@
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:64] [int32_t CConfig::parse(const string&)] config : {{
+    "server":
+    {
+        "host" : "10.80.5.23",
+        "port" : 12341,
+        "threadnum" : 5
+    },
+
+    "zookeeper":
+    {
+        "host" : "10.80.5.21:2181",
+        "nodename" : "/taskmgr"
+    },
+
+    "zknodes":
+    {
+        "sms" : "/sms",
+        "devconn" : "/devconn",
+        "appconn" : "/appconn"
+    },
+
+    "idc" : 1,
+
+    "redis":
+    {
+        "host" : "10.80.5.23",
+        "port" : 6379,
+        "timeout" : 3000
+    },
+
+    "server_id" : "test111",
+
+    "web":
+    {
+        "app": "http://app.meshare.com:9990/",
+        "dev": "http://device.meshare.com:9990/"
+    }
+}
+} 
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:216] [bool CConfig::parse_serverinfo(rapidjson::Document&)] config read successfully: 
+	[server] info : [
+		host = 10.80.5.23
+		port = 12341
+		threadnum = 5
+	] 
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:300] [bool CConfig::parse_zkinfo(rapidjson::Document&)] config read successfully: 
+	[zookeeper] info : [
+		host = 10.80.5.21:2181
+		node name = 39628072
+	] 
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:406] [bool CConfig::parse_zknodes(rapidjson::Document&)] config read successfully: 
+	[zookeeper] info : [
+		sms = /sms
+		devconn = /devconn
+		appconn = /appconn
+	] 
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:444] [bool CConfig::parse_idc(rapidjson::Document&)] config read successfully: 
+	[idc] info : [
+		idc num = 1
+	] 
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:554] [bool CConfig::parse_redisinfo(rapidjson::Document&)] config read successfully: 
+	[redis] info : [
+		host = 10.80.5.23
+		port = 6379
+		timeout = 3000
+	] 
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:592] [bool CConfig::parse_serverid(rapidjson::Document&)] config read successfully: 
+	[server_id] info : [
+		server id = test111
+	] 
+2016-06-27 23:53:11,891 NOTICE [Config.cpp:678] [bool CConfig::parse_webinfo(rapidjson::Document&)] config read successfully: 
+	[web] info : [
+		app = http://app.meshare.com:9990/
+		dev = http://device.meshare.com:9990/
+	] 
+2016-06-27 23:53:12,892 NOTICE [ZkClient.cpp:126] [int32_t Zk::CZkClient::init()] connect success {times = 1} 
+2016-06-27 23:53:12,892 NOTICE [TaskMgrRedis.cpp:99] [ResultCode CTaskMgrRedis::init_redis()] redis init_redis success 
+2016-06-27 23:53:22,892 NOTICE [server.cpp:212] [int32_t main(int32_t, char**)] register server ... 
+2016-06-27 23:53:23,892 NOTICE [ZkServer.cpp:57] [int32_t Zk::CZkServer::init()] zookeeper_init success {times:1} 
+2016-06-27 23:53:23,899 NOTICE [ZkServer.cpp:117] [int32_t Zk::CZkServer::init()] register service success 
+2016-06-27 23:53:54,901 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          1] times 
+2016-06-27 23:54:25,904 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:54:56,907 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:55:27,910 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:55:58,913 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:56:29,917 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:57:00,920 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:57:31,924 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:58:02,927 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:58:33,931 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:59:04,934 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
+2016-06-27 23:59:35,938 NOTICE [server.cpp:233] [int32_t main(int32_t, char**)] taskmgr has been request [          2] times 
